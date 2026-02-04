@@ -1,0 +1,19 @@
+{
+  "name": "cwaifw",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "download-files": "bun run index.ts download-files",
+    "dev": "bun run index.ts dev",
+    "start": "bun run index.ts start"
+  },
+  "dependencies": {
+    "@livekit/agents": "^1.0.40",
+    "@livekit/agents-plugin-google": "^1.0.40",
+    "@livekit/agents-plugin-silero": "^1.0.40"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^25.0.0"
+  }
+}
